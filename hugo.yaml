@@ -94,10 +94,10 @@ params:
     intro: "Hi, my name is"
     title: "Juanma Barea Martinez"
     subtitle: "I'm a Cloud/DevOps Consultant at RedHat"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
-    image: /images/hero.svg
+    content: "Are you interested in learning more about my background or experience? Keep scrolling!"
+    image: /images/me_2.png
     bottomImage:
-      enable: true
+      enable: false
       roundImage: false # Make hero image circular | default false
     button:
       enable: false
@@ -108,212 +108,232 @@ params:
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
-        - icon: fab fa-x-twitter
-          url: https://example.com
+          url: https://github.com/JuanmaBM
+        - icon: fab fa-linkedin
+          url: "https://es.linkedin.com/in/juanma-barea-mart%C3%ADnez-a8400996"
       customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+        - icon: /images/credly.png
+          url: "https://www.credly.com/users/juan-manuel-barea-martinez/"
 
   # About
   about:
     enable: true
     title: "About Me"
-    image: "/images/blog-logo.png"
+    image: ""
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
-
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      I am a Cloud/DevOps consultant with a strong development background, passionate about building and designing advanced technological solutions. In my early years, I worked with core technologies like Java, JavaScript/TypeScript, Spring Boot, and Angular, which gave me a deep understanding of full-stack application development. Throughout my career, I transitioned into more strategic roles, specializing as a microservices integration architect and solutions architect focused on cloud-based architectures. My experience at Red Hat has enabled me to implement robust and optimized architectures, helping companies scale their systems and fully leverage cloud platforms.
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: ""
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "Kubernetes"
+        - "Openshift"
+        - "ArgoCD"
+        - "GitOps"
+        - "Service Mesh"
+        - "Serverless"
+        - "Helm"
+        - "DevOps"
+        - "Linux"
+        - "Ansible"
+        - "Terraform"
+        - "Azure DevOps"
+        - "AWS/Azure"
+        - "Microservices"
+        - "Kafka"
+        - "MongoDB"
+        - "Quarkus"
+        - "Spring Boot"
+        - "Angular"
+        - "Bash"
+        - "Golang"
+        - "Python"
 
   # Experience
   experience:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Senior Software Developer"
-        company: "Facebook"
+      - job: "RedHat"
+        company: "Cloud-DevOps Consultant"
         companyUrl: "https://example.com"
-        date: "Jan 2022 - present"
+        date: "May 2022 - Current"
         featuredLink:
-          enable: true
+          enable: false
           name: "View the project"
           url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+        content: |-
+          As a consultant at RedHat, my role is to help clients efficiently adopt RedHat technologies and streamline the development and maintenance of their applications, infrastructure, and platforms. A RedHat consultant is expected to recommend best practices when working with cloud technologies, Kubernetes, automation, and application development. This requires staying continuously updated on emerging technologies.
 
-      - job: "Software Developer"
-        company: "Amazon"
+          Additionally, I have collaborated with the architecture team in delivering presentations and workshops to clients, aimed at showcasing and expanding the use of RedHat technologies.
+
+          Tech stack:
+            - "Kubernetes"
+            - "Openshift"
+            - "ArgoCD"
+            - "GitOps"
+            - "Service Mesh"
+            - "Serverless"
+            - "Helm"
+            - "DevOps"
+            - "Linux"
+            - "Ansible"
+            - "Terraform"
+            - "Azure DevOps"
+            - "AWS/Azure"
+            - "Microservices"
+            - "Kafka"
+            - "MongoDB"
+            - "Quarkus"
+            - "Spring Boot"
+            - "Angular"
+            - "Bash"
+            - "Golang"
+            - "Python"
+
+      - job: "Knowmadmood"
+        company: "Solution Architect"
         companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
+        date: "Feb 2019 - May 2022"
         featuredLink:
-          enable: true
-          url: "https://example.com"
-        info:
-          enable: true
-          content: I worked as a software developer for more than one year in Amazon.
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Junior Software Developer"
-        company: "Apple"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
-        info:
           enable: false
-        featuredLink:
-          enable: true
+          name: "View the project"
           url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+        content: |-
+          As a Solution Architect, I was involved in high-impact tasks across several projects. Some of these tasks included developing proofs of concept to evaluate the viability of proposed solutions, designing applications and platform systems to meet customer requirements for performance, security, and capacity. I also worked on complex application architectures using various tech stacks and approaches, such as event-driven, serverless, and streaming microservices architectures. During this period, I consistently utilized Kubernetes, ensuring that all applications and the designed platform adhered to cloud-native best practices.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          In addition to my technical role, I was responsible for enhancing team effectiveness. I served as a Team Lead, balancing both leadership and technical responsibilities.  
 
-      - job: "UI/UX Designer"
-        company: "Netflix"
+          Tech stack:
+            - Java 11
+            - Maven
+            - Python
+            - Javascript
+            - Bash
+            - Spring Framework 5
+            - Azure DevOps
+            - Azure AKS
+            - Azure CosmosDB
+            - Azure Insights
+            - Azure Redis
+            - Azure API Management
+            - Azure EventHubs
+            - Kubernetes
+            - Docker
+            - Helm
+            - Ansible
+            - Terraform
+            - Keyvault
+            - MongoDB Atlas
+            - Keda
+      - job: "Knowmadmood"
+        company: "Integration Architect"
         companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
+        date: "Jan 2018 - Feb 2019"
         featuredLink:
-          enable: true
+          enable: false
+          name: "View the project"
           url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+        content: |-
+          During this period I was involucrated in the evolution of some monolitic applications to microservices ecosystems and the migration to cloud native applications.
+          I also was working with Kubernetes, Infraestucture-as-code or NoSQL databases. I started to concern about high level designs decissions as platform, infraestructure 
+          or monitorization/observability, as well as application architecture. Also, I initiated my journey with automation tools as Ansible or Terraform.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Product Designer"
-        company: "Google"
+          Tech stack:
+            - Java 8
+            - Gradle
+            - Maven
+            - Spring boot 2
+            - Spring Framework 5
+            - Spring Cloud (Eureka, Zuul, Ribbon, Hystrix)
+            - Spring MVC
+            - Spring Security Oauth2
+            - Spring Data (JPA, MongoDB, CassandraDB)
+            - Jenkins
+            - Docker
+            - Docker-compose
+            - Kubernetes
+            - Shell scripting
+            - AWS (Pipelines, Elastic Beanstalk, DynamoDB, EC2)
+            - MySQL
+            - MongoDB
+            - Oracle NoSQL
+            - PostgreSQL
+            - CassandraDB
+            - Junit
+            - Mockito
+            - Clustering
+            - Sharding
+            - Graylog
+            - Ansible
+            - Terraform
+            - Prometheus
+            - Telegraf
+            - InfluxDB
+            - Grafana
+      - job: "Knowmadmood"
+        company: "Full Stack Developer"
         companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+        date: "Jul 2016 - Jan 2018"
+        featuredLink:
+          enable: false
+          name: "View the project"
+          url: "https://example.com"
+        content: |-
+          I was developing applications with Spring boot and Angular framework. I had some responsabilites in CI/CD process performed by Jenkins and deploying new 
+          application releases in AWS Elastic Beanstalk.
+
+          Tech stack:
+          - Java 8
+          - Gradle
+          - Spring Boot 2
+          - Spring Framework 5
+          - Spring MVC
+          - Spring Data
+          - Spring Security
+          - MySQL
+          - Docker
+          - SonarQube
+          - AngularJS
+          - Javascript ES6
+          - GULP
+          - AWS Elastic Beanstalk
+          - AWS S3
 
   # Education
   education:
-    enable: true
-    # title: "Custom Name"
-    index: false
-    items:
-      - title: "Master of Business Administration"
-        school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
-        content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
-        school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
-        school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+    enable: false
 
   # Achievements
   achievements:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-        image: /images/achievment.jpg
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-        image: /images/achievment.jpg
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievment.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+      - title: Red Hat Certified Architect (RHCA)
+        image: /images/architect.png
+        url: https://www.credly.com/badges/f25f196d-cfab-40c9-be51-ad1a79ad0cf7
+      - title: Red Hat Certified Cloud-Native Developer
+        image: /images/cnd.png
+        url: https://www.credly.com/badges/ecab247d-f5c3-41b3-80d6-f8b49d83696a
+      - title: Red Hat Certified OpenShift Administrator
+        image: /images/openshift_admin.png
+        url: https://www.credly.com/badges/f0ac84de-28dd-479f-818c-f8be86172632
+      - title: Red Hat Certified Specialist in Building Resilient Microservices
+        url: "https://www.credly.com/badges/4b847661-815f-4f2c-a043-24001321d4da"
+        image: /images/mesh.png
+      - title: Red Hat Certified OpenShift Application Developer
+        image: /images/developer.png
+        url: https://www.credly.com/badges/383a4e03-4618-4113-9192-30919eaac4c9
+      - title: Red Hat Certified Specialist in MultiCluster Management
+        url: https://www.credly.com/badges/5fead8fa-7ccd-43ee-91ca-d46f2a418744
+        image: /images/acm.png
+      - title: Red Hat Certified Specialist in Containers and Kubernetes
+        url: https://www.credly.com/badges/5052a1b5-d5d6-4636-a312-deb3eeb1be6a
+        image: /images/kubernetes_specialist.png
 
   # projects
   projects:
-    enable: true
-    # title: "Custom Name"
-    items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
-        featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
-
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
-        badges:
-          - "Django"
-          - "Bootstrap"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
-
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+    enable: false
 
   #Contact
   contact:
@@ -321,7 +341,7 @@ params:
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
     btnName: Mail me
-    btnLink: mailto:gurusabarisha@gmail.com
+    btnLink: mailto:juanmabareamartinez@gmail.com
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
@@ -337,11 +357,8 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/JuanmaBM
+      linkedin: https://es.linkedin.com/in/juanma-barea-mart%C3%ADnez-a8400996
 
   # List pages like blogs and posts
   listPages:
